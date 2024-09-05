@@ -15,7 +15,6 @@ import androidx.core.view.WindowInsetsCompat;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.FilterInputStream;
 import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
@@ -86,5 +85,6 @@ public class MainActivity extends AppCompatActivity {
             tvNotaSaida.setText("Nenhuma nota encontrada.");
         }
     }
-
 }
+
+
